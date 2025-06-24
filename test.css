@@ -1,0 +1,115 @@
+@charset "utf-8";
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+    box-sizing: border-box;
+  background-color: #eee;
+}
+
+header {
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #ffff66;
+  padding: 20px;
+  max-width: 900px;
+  margin:auto;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  max-width: 900px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper {
+  max-width: 900px;
+  margin: auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+aside {
+  box-sizing: border-box;
+  width: 30%;
+  background-color: #aef0e1;
+}
+
+aside ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+aside ul li a {
+  color: blue;
+  text-decoration: underline;
+}
+
+main {
+  box-sizing: border-box;
+  width: 70%;
+  background-color: #ffe4c4;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 2px;
+}
+
+td {
+  vertical-align: top;
+  border: double 4px #666;
+  padding: 1px;
+
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+  background-color: #fffaf0;
+  border: 1px solid #999;
+}
+
+textarea {
+  height: 60px;
+}
+
+.submit-area {
+  text-align: right;
+  margin-top: 10px;
+}
+
+input[type="submit"] {
+  padding: 5px 15px;
+  background-color: #fff;
+  border: 1px solid #666;
+  cursor: pointer;
+}
+
+footer {
+  box-sizing: border-box;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+}
